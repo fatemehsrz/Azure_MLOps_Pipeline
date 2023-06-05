@@ -41,7 +41,7 @@ parser.add_argument("--input-data", type=str)
 args=parser.parse_args()
 
 
-traing_data= Dataset.Tabular.from_delimited_files( path= [( datastore, args.input-data)]).to_pandas_dataframe()
+training_data= Dataset.Tabular.from_delimited_files( path= [( datastore, args.input-data)]).to_pandas_dataframe()
 
 
 print("data shape:", str(training_data.shape))
