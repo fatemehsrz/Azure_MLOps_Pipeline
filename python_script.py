@@ -37,7 +37,7 @@ datastore= Datastore.get(ws, "demostore")
 print("setting up the blob store for reading the inputfile")
 
 parser= argparse.ArgumentParser()
-parser.add_argument("--input-data", type=str)
+parser.add_argument("--input_data", type=str)
 args=parser.parse_args()
 
 
